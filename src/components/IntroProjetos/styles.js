@@ -1,29 +1,22 @@
 import styled from "styled-components";
 
 export const ContainerProjetos = styled.div`
-    display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 2rem;
-    justify-content: space-between;
-    padding: 1rem 0;
 
-    
-    @media screen and (max-width: 600px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 `;
 
 export const Projeto = styled.div`
     width: 100%;
-    height: 31rem;
+    height: 60vh;
     background-color: #c4c4c4;
     position: relative;
     display: flex;
+    align-items: center;
     justify-content: center;
-    border-bottom: 2.2rem solid #2072fa;
+    filter: brightness(0.5);
+
+    &:hover{
+        filter: brightness(1);
+    }
 
     @media screen and (max-width: 850px) {
         height: 18rem;
@@ -36,7 +29,7 @@ export const Projeto = styled.div`
 `;
 
 export const Container = styled.div`
-    width: 80%;
+    width: 100%;
     
     @media screen and (max-width: 600px) {
         width: auto;
@@ -70,9 +63,11 @@ export const Triangulo = styled.div`
     top: 94.6%;
 `;
 
-export const SpanNome = styled.span`
+export const Titulo = styled.span`
     white-space: nowrap;
-    font-size: .8rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    position: relative;
+    font-weight: 800;
+    color: #fff;
     letter-spacing: .15rem;
 `;

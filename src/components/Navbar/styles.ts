@@ -2,14 +2,12 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   width: 100%;
-  height: 5rem;
+  height: 10vh;
   display: flex;
   justify-content: center;
   background-color: #000;
-  position: fixed;
   top: 0;
   z-index: 100;
-  margin-bottom: 7rem;
 
   @media screen and (max-width: 850px) {
     position: absolute;
