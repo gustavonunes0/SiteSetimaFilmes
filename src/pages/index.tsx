@@ -12,9 +12,13 @@ import Carousel from '@/components/Carousel';
 const Home = () => {
 
     const images: string[] = [
-        '../../public/Imagem1Gustavo.png',
-        '',
-        '',
+        '/Imagem1Gustavo.png',
+        'ImagemGustavo2.png',
+        'imagemtesteSetima.png',
+        'fotodeperfil.jfif',
+        'Captura de tela 2023-03-08 175016.png',
+        'Captura de tela 2023-03-13 142603.png',
+        'Captura de tela 2023-04-05 235117.png',
     ]
 
     const projetos = [
@@ -50,6 +54,9 @@ const Home = () => {
                     <IntroProjetos key={index} nome={projeto.nome} />
                     ))}
                 </S.ContainerProjetos>
+                <div style={{height: '8vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <a href='#' style={{textDecoration: 'none'}}><S.SpanVerMais>VER MAIS</S.SpanVerMais></a>
+                </div>
                 <S.ContainerSetimaFilms>
                     <S.SpanSetima>A SÉTIMA FILMS</S.SpanSetima>
                     <S.DescricaoSetima>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sem neque
@@ -58,11 +65,11 @@ usce fermentum odiovitae erosultrices fermentum. Nulla vel venenatis sapien.</S.
                 <S.ContainerNossosClientes>
                     <S.SpanClientes>NOSSOS CLIENTES</S.SpanClientes>
                     <div>
-
+                        <Carousel images={images}/>
                     </div>
                 </S.ContainerNossosClientes>
             </S.Main>
-            {/* <Footer/> */}
+            <Footer/>
         </>
     );
 }

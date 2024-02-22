@@ -58,8 +58,8 @@ export const ContainerNossosClientes = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem 2rem;
-    height: 50vh;
+    padding: 5rem 0rem;
+    gap: 2rem;
     
     @media screen and (max-width: 600px) {
 
@@ -142,6 +142,23 @@ export const SpanNossosTrabalhos = styled.span`
 
     &:hover{
       border-bottom: 2px solid #81151f;
+    }
+
+  @media screen and (max-width: 850px) {
+
+  }
+`;
+
+export const SpanVerMais = styled.span`
+    color: #dedede;
+    font-size: 1.15rem;
+    word-spacing: 0rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+
+    &:hover{
+      border-bottom: 0px solid #fff;
     }
 
   @media screen and (max-width: 850px) {
