@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
                 </Link>
               </S.MenuItem>
               <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href={{ pathname: "/sobre" }} style={{textDecoration: "none"}}>
                   <S.StyledLink>SOBRE</S.StyledLink>
                 </Link>
               </S.MenuItem>

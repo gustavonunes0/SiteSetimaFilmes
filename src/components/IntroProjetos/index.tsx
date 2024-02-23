@@ -10,10 +10,6 @@ const IntroProjetos: React.FC<IntroProjetosProps> = ({ nome }) => {
 
   return (
       <S.Container>
-        {/* <S.DivHeader>
-          <S.SpanNome>{nomeEmMaiusculas}</S.SpanNome>
-          <S.divLinhaAzul></S.divLinhaAzul>
-        </S.DivHeader> */}
         <S.ContainerProjetos>
           <S.Projeto>
             <S.Titulo>{nomeEmMaiusculas}</S.Titulo>
