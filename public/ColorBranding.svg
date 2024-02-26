@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.74 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #e5283a;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Diferenciais">
+    <g id="_03Bloco_cópia_cópia" data-name="03Bloco cópia cópia">
+      <g id="Camada_31_cópia_2_cópia" data-name="Camada 31 cópia 2 cópia">
+        <g>
+          <circle class="cls-1" cx="24.39" cy="47.61" r="22.89"/>
+          <circle class="cls-1" cx="55.35" cy="47.61" r="22.89"/>
+          <circle class="cls-1" cx="39.87" cy="24.39" r="22.89"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
