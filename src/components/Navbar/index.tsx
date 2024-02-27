@@ -36,7 +36,7 @@ const NavBar: React.FC = () => {
                 </Link>
               </S.MenuItem>
               <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href={{ pathname: "/diferenciais" }} style={{textDecoration: "none"}}>
                   <S.StyledLink>DIFERENCIAIS</S.StyledLink>
                 </Link>
               </S.MenuItem>

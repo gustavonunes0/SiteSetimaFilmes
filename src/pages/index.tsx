@@ -54,10 +54,13 @@ const Home = () => {
                     <IntroProjetos key={index} nome={projeto.nome} />
                     ))}
                 </S.ContainerProjetos>
-                <div style={{height: '8vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <br/>
+                <div style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <a href='#' style={{textDecoration: 'none'}}><S.SpanVerMais>VER MAIS</S.SpanVerMais></a>
                 </div>
                 <S.ContainerSetimaFilms>
+                    <S.Olho src="/OlhoSetima.svg"/>
+                    <br/>
                     <S.SpanSetima>A SÉTIMA FILMS</S.SpanSetima>
                     <S.DescricaoSetima>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sem neque
 usce fermentum odiovitae erosultrices fermentum. Nulla vel venenatis sapien.</S.DescricaoSetima>

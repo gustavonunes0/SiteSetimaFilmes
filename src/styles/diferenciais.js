@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   padding: 0;
@@ -14,47 +15,16 @@ export const ContainerPrincipal = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
   width: 100%;
   padding: 3rem 0;
   gap: 2rem;
-`;
-
-export const ContainerFundadores = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  padding: 3rem 0;
-  gap: 2rem;
-`;
-
-export const ContainerSobre = styled.div`
-  display: grid;
-  grid-template-columns: 30% 30%;
-  justify-content: start;
-  place-content: center;
-  align-items: start;
-  height: 40vh;
-`;
-
-export const PrimeiroSobre = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  width: 100%;
-  gap: 0.5rem;
-  height: 100%;
 `;
 
 export const SegundoSobre = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 1.2rem;
   height: 100%;
@@ -77,8 +47,8 @@ export const ContainerIconeSobre = styled.div`
 `;
 
 export const IconeSobre = styled.img`
-  width: 1.5rem;
-  height: 1.7rem;
+  width: 4.5rem;
+  height: 4.7rem;
 `;
 
 export const Fundadores = styled.div`
